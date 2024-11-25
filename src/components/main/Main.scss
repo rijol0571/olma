@@ -1,0 +1,53 @@
+.Hero {
+  background: url("../../assets/hero.jpg") no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+
+  h2 {
+    margin-top: 2rem;
+    font-size: 3rem;
+    //   margin-bottom: 1rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+
+    li:nth-child(1) {
+      display: inline-block;
+      margin: 0 10px;
+      padding: 10px 20px;
+      background: #0071e3;
+      color: #fff;
+      border-radius: 20px;
+      cursor: pointer;
+
+      &:hover {
+        background: #005bb5;
+      }
+    }
+    li:nth-child(2) {
+      color: #005bb5;
+      border: 1px solid #0071e3;
+      display: inline-block;
+      margin: 0 10px;
+      padding: 10px 20px;
+      background: transparent;
+      border-radius: 20px;
+      cursor: pointer;
+
+      &:hover {
+        color: #fff;
+        background: #005bb5;
+      }
+    }
+  }
+}
