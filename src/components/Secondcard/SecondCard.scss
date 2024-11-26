@@ -1,4 +1,4 @@
-.card2 {
+.secondcard {
     height: 430px; 
     width: 530px; 
     margin: 5px auto;
@@ -8,13 +8,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+
+
     justify-content: space-between; 
     text-align: center;
     background: url('./path-to-image.jpg') no-repeat center center; 
     background-size: cover; 
   
+
+
+
     h2 {
-    //   margin-top: 200px; 
       font-size: 2rem;
       font-weight: bold;
     }
@@ -29,6 +33,7 @@
       list-style: none;
       padding: 0;
       display: flex;
+
       gap: 10px;
   
       li {
@@ -50,17 +55,19 @@
           }
         }
   
+        
         &:nth-child(2) {
           color: #005bb5;
-          border: 1px solid #0071e3;
+          border: 1px solid #0261bf;
           background: transparent;
   
           &:hover {
-            color: #fff;
+            color: #dad5d5;
             background: #005bb5;
           }
         }
       }
+      
     }
   }
   
